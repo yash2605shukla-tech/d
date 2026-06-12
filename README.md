@@ -72,3 +72,19 @@ Since this is a data science project, the "interactivity" lives inside your note
 <sub><i>Built with passion by Yash Shukla</i></sub>
 
 </div>
+<div align="center">
+
+<!-- Animated Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d9ff&height=120&section=footer" width="100%"/>
+
+<br/>
+
+<b>Made with ❤️ by <a href="https://github.com/Yash-Shukla11">Yash Shukla</a></b>
+
+<br/><br/>
+
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/made-with-python.svg" />
+<img src="https://forthebadge.com/images/badges/open-source.svg" />
+
+</div>
