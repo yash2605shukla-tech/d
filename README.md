@@ -62,3 +62,19 @@ graph LR
     style E fill:#0d1117,stroke:#f472b6,color:#ffffff
     style G fill:#0d1117,stroke:#fbbf24,color:#ffffff
     style I fill:#0d1117,stroke:#00d9ff,color:#ffffff
+
+---
+
+<div align="center">
+
+## 💖 Support & Contributions
+
+**Created with ❤️ by [Yash Shukla](https://github.com/Yash-Shukla11)**
+
+*If you found this project useful, learned something new, or just want to show some support, please consider giving it a ⭐! It helps others find this repository and motivates me to build more awesome data science projects.*
+
+[![GitHub followers](https://img.shields.io/github/followers/Yash-Shukla11?style=social)](https://github.com/Yash-Shukla11)
+[![GitHub forks](https://img.shields.io/github/forks/Yash-Shukla11/heart-disease-prediction-xgboost?style=social)](https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Yash-Shukla11/heart-disease-prediction-xgboost?style=social)](https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost/stargazers)
+
+</div>
