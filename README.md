@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%F0%9F%A9%BA+Heart+Disease+Prediction;End-to-End+Machine+Learning+Project" alt="Typing SVG" /></a>
+<a href="[https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost](https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost)"><img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%F0%9F%A9%BA+Heart+Disease+Prediction;End-to-End+Machine+Learning+Project](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%F0%9F%A9%BA+Heart+Disease+Prediction;End-to-End+Machine+Learning+Project)" alt="Typing SVG" /></a>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d9ff&height=200&section=header&text=Heart%20Disease%20Prediction&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20beginner-friendly%20teaching%20notebook%20%7C%20From%20Raw%20CSV%20to%20Optimized%20Predictions&descSize=18&descAlignY=55&descColor=58a6ff" width="100%"/>
+<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d9ff&height=200&section=header&text=Heart%20Disease%20Prediction&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20beginner-friendly%20teaching%20notebook%20%7C%20From%20Raw%20CSV%20to%20Optimized%20Predictions&descSize=18&descAlignY=55&descColor=58a6ff](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d9ff&height=200&section=header&text=Heart%20Disease%20Prediction&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20beginner-friendly%20teaching%20notebook%20%7C%20From%20Raw%20CSV%20to%20Optimized%20Predictions&descSize=18&descAlignY=55&descColor=58a6ff)" width="100%"/>
 
 <br/>
 
@@ -18,7 +18,7 @@
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="[https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)" width="100%">
 
 ## 🧠 About This Project
 
@@ -40,11 +40,11 @@ By exploring this project, you will master:
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="[https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)" width="100%">
 
-```## 🗺️ Machine Learning Pipeline
+## 🗺️ Machine Learning Pipeline
 
-mermaid
+```mermaid
 graph LR
     A["📥 Load"] --> B["🧹 Clean"]
     B --> C["📊 EDA"]
@@ -62,19 +62,23 @@ graph LR
     style E fill:#0d1117,stroke:#f472b6,color:#ffffff
     style G fill:#0d1117,stroke:#fbbf24,color:#ffffff
     style I fill:#0d1117,stroke:#00d9ff,color:#ffffff
-```
----
+🚀 Quick Start & Usage
+Clone the repository:
 
-<div align="center">
+Bash
+git clone https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost.git
+cd heart-disease-prediction-xgboost
+Install the required dependencies:
 
-## 💖 Support & Contributions
+Bash
+pip install -r requirements.txt
+(Requires scikit-learn, xgboost, pandas, numpy, matplotlib, seaborn)
 
-**Created with ❤️ by [Yash Shukla](https://github.com/Yash-Shukla11)**
+Explore the Notebook:
+Open the Jupyter Notebook (Heart_Attack_Analysis.ipynb) to view the exploratory data analysis, the GridSearchCV hyperparameter tuning process, and the final evaluation metrics.
 
-*If you found this project useful, learned something new, or just want to show some support, please consider giving it a ⭐! It helps others find this repository and motivates me to build more awesome data science projects.*
+🛠️ Technologies Used
+💖 Support & Contributions
+Created with ❤️ by Yash Shukla
 
-[![GitHub followers](https://img.shields.io/github/followers/Yash-Shukla11?style=social)](https://github.com/Yash-Shukla11)
-[![GitHub forks](https://img.shields.io/github/forks/Yash-Shukla11/heart-disease-prediction-xgboost?style=social)](https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost/network/members)
-[![GitHub stars](https://img.shields.io/github/stars/Yash-Shukla11/heart-disease-prediction-xgboost?style=social)](https://github.com/Yash-Shukla11/heart-disease-prediction-xgboost/stargazers)
-
-</div>
+If you found this project useful, learned something new, or just want to show some support, please consider giving it a ⭐! It helps others find this repository and motivates me to build more awesome data science projects.
