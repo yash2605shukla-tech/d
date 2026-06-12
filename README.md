@@ -44,7 +44,7 @@ By exploring this project, you will master:
 
 ## 🗺️ Machine Learning Pipeline
 
-```mermaid
+mermaid
 graph LR
     A["📥 Load"] --> B["🧹 Clean"]
     B --> C["📊 EDA"]
