@@ -42,7 +42,7 @@ By exploring this project, you will master:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🗺️ Machine Learning Pipeline
+```## 🗺️ Machine Learning Pipeline
 
 mermaid
 graph LR
@@ -62,7 +62,7 @@ graph LR
     style E fill:#0d1117,stroke:#f472b6,color:#ffffff
     style G fill:#0d1117,stroke:#fbbf24,color:#ffffff
     style I fill:#0d1117,stroke:#00d9ff,color:#ffffff
-
+```
 ---
 
 <div align="center">
