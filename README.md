@@ -6,7 +6,7 @@
 
 **Uncovering the hidden trends in 19,800+ movies using Python**
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Yash-Shukla11/movies-data-analysis?style=for-the-badge&color=blueviolet)](https://github.com/Yash-Shukla11/movies-data-analysis)
+[![GitHub last commit](https://img.shields.io/github/last-commit/https://github.com/Yash-Shukla11/imdb-cinematic-trends-edastyle=for-the-badge&color=blueviolet)](https://github.com/Yash-Shukla11/movies-data-analysis)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Analysis-Complete-brightgreen?style=for-the-badge)](https://github.com/Yash-Shukla11)
 
