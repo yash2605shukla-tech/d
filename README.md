@@ -1,61 +1,65 @@
-<div align="center">
+# 🎬 Cinematic Data Unveiled: An Exploratory Analysis
+> *Decoding box office trends, audience preferences, and cinematic history across 19,800+ movies.*
 
-<a href="https://github.com/Yash-Shukla11/movies-data-analysis"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%F0%9F%8E%AC+Movies+Data+Analysis;Exploratory+Data+Analysis+(EDA)+Project" alt="Typing SVG" /></a>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d9ff&height=200&section=header&text=Movies%20Data%20Analysis&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20Visual%20Storytelling%20Journey%20%7C%20Pandas,%20Matplotlib%20&%20Seaborn&descSize=18&descAlignY=55&descColor=58a6ff" width="100%"/>
-
-<br/>
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Yash-Shukla11/movies-data-analysis?style=for-the-badge&color=00d9ff&labelColor=0d1117)
-![GitHub repo size](https://img.shields.io/github/repo-size/Yash-Shukla11/movies-data-analysis?style=for-the-badge&color=7c3aed&labelColor=0d1117)
-![GitHub stars](https://img.shields.io/github/stars/Yash-Shukla11/movies-data-analysis?style=for-the-badge&color=fbbf24&labelColor=0d1117)
-![GitHub forks](https://img.shields.io/github/forks/Yash-Shukla11/movies-data-analysis?style=for-the-badge&color=34d399&labelColor=0d1117)
-![Profile Views](https://komarev.com/ghpvc/?username=Yash-Shukla11-MoviesEDA&label=Repository+Views&color=f472b6&style=for-the-badge)
-
-</div>
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Data_Visualization-4C4C4C?style=flat-square&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## 📌 Executive Summary
 
-## 🧠 About This Project
+This project is a deep dive into the global film industry using purely **Exploratory Data Analysis (EDA)** and **Data Visualization**. Instead of predictive modeling, this notebook focuses on extracting actionable insights, cleaning messy real-world text data, and presenting findings through compelling visual storytelling.
 
-> *A comprehensive Exploratory Data Analysis (EDA) uncovering hidden trends, box office insights, and rating patterns across nearly 20,000 global movies.*
+**Dataset Scope:** ~19,800 cinematic records spanning multiple decades.  
+**Core Objective:** To understand the relationship between movie runtimes, user ratings, critical reception, and global box office gross.
 
-This project focuses entirely on **Data Manipulation and Visual Storytelling**. Instead of building predictive models, this notebook dives deep into a massive cinematic dataset to answer real-world questions using statistical summaries, data wrangling, and stunning visualizations. 
+---
 
-### 🎯 Project Highlights
-By exploring this notebook, you will see practical examples of:
-* **Data Manipulation:** Cleaning missing values, handling mixed data types, and restructuring columns using `Pandas`.
-* **Feature Engineering:** Parsing complex text fields (like casting and genres) and converting string-based dimensions (like duration and gross income) into numeric formats for analysis.
-* **Univariate & Bivariate Analysis:** Understanding the distribution of movie runtimes, ratings, and budgets.
-* **Visual Storytelling:** Creating highly customized, aesthetically pleasing charts using `Matplotlib` and `Seaborn` to present data-driven conclusions clearly.
+## 🔍 The Analytical Process
 
-<div align="center">
+This notebook follows a rigorous data analysis workflow, broken down into four key phases:
 
-| 📊 Dataset | 🍿 Total Movies | 🛠️ Core Focus | 📈 Key Tools |
-|:-----------|:----------------|:------------------|:-----------------|
-| Movie Industry Data | ~19,800 Records | Data Visualization | `Pandas` + `Seaborn` |
+### 1️⃣ Data Wrangling & Cleaning
+* **Missing Value Imputation:** Handled nulls in financial columns (`gross_income`) and metadata (`certificate`).
+* **Data Type Conversion:** Transformed string-based monetary values and text-heavy columns into clean, computable numeric types.
+* **Feature Parsing:** Extracted meaningful categories from nested text fields (e.g., separating multi-genre tags).
 
-</div>
+### 2️⃣ Univariate Analysis
+* Analyzed the isolated distributions of `duration`, `rating`, and `votes` to establish baselines.
+* Identified outliers in box-office revenues using robust statistical summaries.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+### 3️⃣ Bivariate & Multivariate Analysis
+* Investigated the correlation between **IMDb Ratings** and **Box Office Gross**.
+* Grouped data to find the most commercially successful **Directors** and **Genres** across different eras.
 
-## 🗺️ The EDA Pipeline
+### 4️⃣ Data Storytelling (Visuals)
+* Leveraged `Matplotlib` and `Seaborn` to create beautiful, publication-ready charts (Bar plots, Scatter plots, Distribution plots, and Heatmaps).
 
-```mermaid
-graph LR
-    A["📥 Load CSV"] --> B["🧹 Data Cleaning"]
-    B --> C["🛠️ Data Manipulation"]
-    C --> D["📊 Univariate Analysis"]
-    D --> E["📈 Bivariate Analysis"]
-    E --> F["🧠 Actionable Insights"]
+---
 
-    style A fill:#0d1117,stroke:#00d9ff,color:#ffffff
-    style B fill:#0d1117,stroke:#7c3aed,color:#ffffff
-    style C fill:#0d1117,stroke:#34d399,color:#ffffff
-    style D fill:#0d1117,stroke:#fbbf24,color:#ffffff
-    style E fill:#0d1117,stroke:#f472b6,color:#ffffff
-    style F fill:#0d1117,stroke:#00d9ff,color:#ffffff
+## 🗄️ Data Dictionary
+
+A quick look at the core variables analyzed in this dataset:
+
+| Feature | Type | Description |
+| :--- | :--- | :--- |
+| `name` | `String` | The official title of the movie. |
+| `certificate` | `Categorical` | Age rating / Certification (e.g., PG-13, R). |
+| `duration` | `Numeric` | Total runtime of the movie in minutes. |
+| `genre` | `String` | Comma-separated list of genres associated with the film. |
+| `rating` | `Numeric` | Average user rating (e.g., IMDb score). |
+| `votes` | `Numeric` | Total number of user votes accumulated. |
+| `gross_income`| `Numeric` | Total box office revenue. |
+| `directors_name`| `String` | The primary director(s) of the movie. |
+
+---
+
+## 🚀 How to Run Locally
+
+Want to explore the data yourself? Follow these steps:
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/Yash-Shukla11/movies-data-analysis.git](https://github.com/Yash-Shukla11/movies-data-analysis.git)
